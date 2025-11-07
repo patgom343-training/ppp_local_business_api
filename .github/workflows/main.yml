@@ -1,4 +1,4 @@
-name: CI Local Business API Rest
+name: CI Automated tests API Rest
 
 #Gatilho
 on: 
