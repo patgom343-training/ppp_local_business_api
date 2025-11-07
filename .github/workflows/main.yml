@@ -1,7 +1,6 @@
-nome: CI Local Business
+name: CI Local Business
 
 #Gatilho
-
 on: 
   workflow_dispatch:
 
