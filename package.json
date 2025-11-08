@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha 'tests/apiRest/**/*.test.js' --timeout 10000 --reporter mochawesome",
+    "test:k6": "k6 run test/desafio3/testK6/authlogin.test.js",
     "start": "node src/index.js",
     "dev": "nodemon src/index.js"
   },
