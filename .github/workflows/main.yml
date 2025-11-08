@@ -29,3 +29,11 @@ jobs:
 
       - name: Executar os testes
         run: npm test
+
+      - name: Rodar os testes de PAI via controller
+        run: npx mocha tests/apiRest/**/*.test.js --timeout 10000 --reporter mochawesome --reporter-options reportDir=mochawesome-report,reportFilename0index,reportJson=true
+        continue-on-error: true
+
+        
+
+        
